@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "styles/_config/_variables.css";
+@import "styles/_config/_fonts.css";
+@import "styles/_base/_reset.css";
+
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white dark:bg-black font-serif text-black dark:text-white;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
