@@ -6,8 +6,16 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="flex h-screen items-center justify-center">
+    <div className="flex px-12 flex-col gap-24 h-screen items-center justify-center">
       ryan@fortgreene.engineering
-    </div>
+      <iframe
+        src="https://staging.untitled.stream/embed/TAwvoqbnkHSR"
+        width="100%"
+        height="344"
+        allow="picture-in-picture"
+        title="[untitled]"
+        className="max-w-lg shadow-xl rounded-[24px]"
+      ></iframe>
+    </div>  
   );
 }
