@@ -17,7 +17,7 @@ export default function Index() {
         className="sm:max-w-lg shadow-xl rounded-[24px]"
       ></iframe>
       <iframe
-        src="http://localhost:3000/embed/teheK8OXP2Ut"
+        src="https://staging.untitled.stream/embed/iUAGIrQVMMIr"
         width="100%"
         height="192"
         allow="picture-in-picture"
