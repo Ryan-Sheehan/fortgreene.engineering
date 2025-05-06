@@ -6,24 +6,19 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="flex px-12 flex-col gap-24 h-screen items-center justify-center">
-      ryan@fortgreene.engineering
-      <iframe
-        src="https://staging.untitled.stream/embed/3yI3g74lVoyF"
-        width="100%"
-        height="344"
-        allow="picture-in-picture"
-        title="[untitled]"
-        className="sm:max-w-lg shadow-xl rounded-[24px]"
-      ></iframe>
-      <iframe
-        src="https://staging.untitled.stream/embed/iUAGIrQVMMIr"
-        width="100%"
-        height="192"
-        allow="picture-in-picture"
-        title="[untitled]"
-        className="sm:max-w-lg shadow-xl rounded-[24px]"
-      ></iframe>
+    <div className="flex px-12 flex-col gap-24 h-screen items-center justify-center ">
+    <iframe 
+    title="Untitled"
+    style={{borderRadius: 24}}
+    src="https://untitled.stream/embed/5gLmeUT1i7Uj" 
+    width="100%" 
+    height="344" 
+    allowFullScreen={true} 
+    allow="picture-in-picture" 
+    frameBorder={0} 
+    loading="lazy"
+    className="max-w-[600px] mx-auto"
+    ></iframe>
     </div>
   );
 }
